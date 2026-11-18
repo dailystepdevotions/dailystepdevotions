@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Daily Step Devotions</title>
+  <title>Daily Steps of Faith</title>
 
   <meta name="description"
     content="Brooke Stubbs is a Christian wife, mother, and nurse. Her writing was shaped through a season of suffering, faith, prayer, and God's daily mercies.">
@@ -139,6 +139,7 @@
     .hero {
       position: relative;
       overflow: hidden;
+      padding: 0;
       background: linear-gradient(135deg,
         #f7f4ed 0%,
         #f5f1e8 58%,
@@ -340,7 +341,16 @@
       display: grid;
       grid-template-columns: 0.75fr 1.25fr;
       gap: 90px;
-      align-items: center;
+      align-items: start;
+    }
+
+    .book-image {
+      display: flex;
+      justify-content: center;
+    }
+
+    .book-image img {
+      width: min(340px, 100%);
     }
 
     .book-cover {
@@ -444,43 +454,11 @@
       border-bottom: 1px solid rgba(255, 255, 255, 0.35);
       color: white;
       font-family: "Playfair Display", serif;
-      font-size: 25px;
+      font-size: 20px;
     }
 
     .email:hover {
       border-color: white;
-    }
-
-    /* =========================
-       DAILY DEVOTIONS LOGO
-    ========================= */
-
-    .logo-box {
-      min-height: 260px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 30px;
-      border: 1px dashed rgba(255, 255, 255, 0.35);
-      text-align: center;
-    }
-
-    .logo-box strong {
-      display: block;
-      color: white;
-      font-family: "Playfair Display", serif;
-      font-size: 30px;
-      font-weight: 400;
-    }
-
-    .logo-box span {
-      display: block;
-      margin-top: 7px;
-      color: #b9c7bf;
-      font-size: 9px;
-      font-weight: 700;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
     }
 
     /* =========================
@@ -621,9 +599,6 @@
         word-break: break-word;
       }
 
-      .logo-box {
-        min-height: 210px;
-      }
     }
 
     /* =========================
@@ -661,12 +636,11 @@
       <nav>
 
         <a href="#top" class="logo">
-          Brooke Stubbs
-          <span>Christian · Mother · Writer</span>
+          Daily Steps of Faith
         </a>
 
         <div class="nav-links">
-          <a href="#book">The Book</a>
+          <a href="#book">Newly Released</a>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
 
@@ -699,11 +673,11 @@
           </h1>
 
           <div class="hero-role">
-            Christian · Mother · Writer
+            Christian · Mother · Writer · Speaker · Wife
           </div>
 
           <p class="hero-description">
-            Brooke Stubbs writes devotionals that bring encouragement for those learning to trust Christ through hard times --- one daily step at a time.
+            Brooke Stubbs writes devotionals that bring encouragement for those learning to trust Christ through hard times—one daily step at a time.
           </p>
 
           <div class="hero-buttons">
@@ -736,7 +710,7 @@
     <section class="section-white" id="book">
       <div class="container book-grid">
 
-        <div>
+        <div class="book-image">
 
           <!--
             BOOK COVER PLACEHOLDER
@@ -750,8 +724,7 @@
             >
           -->
 
-          <img src="images/book_1.png" alt="One Day at a Time book cover"
-            style="width: min(340px, 100%); display: block;">
+          <img src="images/book_1.png" alt="One Day at a Time book cover">
 
         </div>
 
@@ -767,21 +740,33 @@
           </h2>
 
           <p style="margin-top: 25px;">
-            In the long days following her son's brain aneurysm,
-            Brooke began recording the words, prayers, and thoughts
-            the Lord placed on her heart.
+            Josiah should not have survived, a ruptured brain aneurysm left him
+            fighting for his life. After a fourteen-hour brain surgery,
+            cardiac arrest, multi-organ failure, seven weeks in a coma,
+            and one life-threatening complication after another,
+            doctors could offer little assurance that he would live—much
+            less walk, speak, work, drive, or live independently again.
           </p>
 
           <p>
-            This devotional is a testimony to God's nearness in
-            suffering and His mercy in impossible circumstances.
+            Yet when medicine had reached its limits, Brooke Stubbs
+            and her family called upon the God for whom nothing
+            is impossible. What followed was a long and painful
+            journey marked by desperate prayer, extraordinary provision,
+            and miracles they could only attribute to the grace of God.
           </p>
 
           <p>
-            Her prayer is that these reflections would become a
-            source of hope and encouragement for others as they
-            walk difficult roads, follow Jesus through suffering,
-            and learn to trust Him one day at a time.
+            Written from Brooke's unique perspective as both Josiah's
+            mother and a registered nurse, He Is Able gathers the daily
+            updates, spiritual reflections, and words of encouragement
+            she recorded while walking through the darkest days of her
+            son's brain injury and recovery. This is more than the account
+            of a young man who lived when he should have died. It is an
+            invitation for anyone facing fear, uncertainty, or impossible
+            circumstances to trust the Lord one day at a time. Josiah's
+            story does not promise that every trial will end the same
+            way—but it bears powerful witness to the truth that God.
           </p>
 
           <div class="book-button">
@@ -826,7 +811,7 @@
           </p>
 
           <p>
-            After her son suffered a life-threatening brain aneurysm,
+            After her son suffered a life-threatening ruptured brain aneurysm,
             Brooke began putting into words the prayers, Scripture-shaped
             reflections, and daily mercies that carried her family through.
           </p>
@@ -834,7 +819,7 @@
           <p>
             With the heart of a mother and the eyes of a nurse, Brooke
             writes honestly about fear, faith, suffering, and the steady
-            nearness of Christ.
+            nearness of Christ. Her prayer is that these reflections would become a source of hope and encouragement for others as they walk difficult roads, follow Jesus through suffering, and learn to take daily steps of faith
           </p>
 
           <p>
@@ -848,7 +833,7 @@
           </p>
 
           <div class="quote">
-            "He is able to do more than all we could have thought or imagined."
+            "He is able to do more than all we could have thought or imagined." - Ephesians 3:20
           </div>
 
         </div>
@@ -877,36 +862,9 @@
             or simply to say hello, send Brooke a note.
           </p>
 
-          <a class="email" href="mailto:dailystepdevotions@gmail.com">
-            dailystepdevotions@gmail.com
+          <a class="email" href="mailto:dailystepsoffaith1@gmail.com">
+            dailystepsoffaith1@gmail.com
           </a>
-
-        </div>
-
-        <div class="logo-box">
-
-          <div>
-
-            <!--
-              DAILY DEVOTIONS LOGO PLACEHOLDER
-
-              Later replace this section with:
-
-              <img
-                src="images/daily-devotions-logo.svg"
-                alt="Daily Devotions"
-              >
-            -->
-
-            <strong>
-              Daily Devotions
-            </strong>
-
-            <span>
-              Logo / mark placeholder
-            </span>
-
-          </div>
 
         </div>
 
@@ -926,7 +884,7 @@
       </span>
 
       <span>
-        Christian · Mother · Writer
+        Christian · Mother · Writer · Speaker · Wife
       </span>
 
     </div>
